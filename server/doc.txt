@@ -1,0 +1,4 @@
+npm init --y  عشان يجاوب علي كل اسئلة
+npm i express
+
+npm i express mongoose body-parser nodemon
