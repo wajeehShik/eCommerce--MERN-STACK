@@ -1,8 +1,8 @@
 import "../../css/Footer/Footer.css";
-
-let Footer=(props)=>{
+import { words } from "../../words";
+let Footer=()=>{
 return    <footer>
-{props.name}
+{words.footerTitle}
 </footer>
 }
 export default Footer;

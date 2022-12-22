@@ -1,0 +1,34 @@
+[
+    {
+        "id":"id1",
+        "title":"computer",
+        "imageUrl":"/images/cart-1.jpg",
+        "description":"this is product 1",
+        "price":"30",
+        "sizes":["S","M"]
+    },
+    {
+        "id":"id2",
+        "title":"computer",
+        "imageUrl":"/images/cart-2.jpg",
+        "description":"this is product 1",
+        "price":"40",
+        "sizes":["S","M","X"]
+    },
+    {
+        "id":"id3",
+        "title":"computer",
+        "imageUrl":"/images/cart-3.jpg",
+        "description":"this is product 1",
+        "price":"40",
+        "sizes":["S","M","X"]
+    },
+    {
+        "id":"id4",
+        "title":"computer",
+        "imageUrl":"/images/cart-3.jpg",
+        "description":"this is product 1",
+        "price":"20",
+        "sizes":["S","M","X"]
+    }
+]
