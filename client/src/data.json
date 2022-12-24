@@ -5,7 +5,7 @@
         "imageUrl":"/images/cart-1.jpg",
         "description":"this is product 1",
         "price":"30",
-        "sizes":["S","M"]
+        "sizes":["XS"]
     },
     {
         "id":"id2",
@@ -13,7 +13,7 @@
         "imageUrl":"/images/cart-2.jpg",
         "description":"this is product 1",
         "price":"40",
-        "sizes":["S","M","X"]
+        "sizes":["XS"]
     },
     {
         "id":"id3",
