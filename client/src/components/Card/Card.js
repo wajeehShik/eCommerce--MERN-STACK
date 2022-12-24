@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../../css/Card/Card.css"
+import Checkout from '../Checkout/Checkout';
 
 export default function Crad(props) {
+  const [showform,setShowform]=useState(false);
+ 
   return (
     <div className="card-wrapper">
       <div className="card-title">{props.cartItems.length ===0?'Card is Empty':"number of products in card is:"+props.cartItems.length}</div>
@@ -25,6 +28,17 @@ export default function Crad(props) {
 
   ))}    
       </div>
+      {props.cartItems.length!=0 &&
+      <div className="card-footer">
+<div className="total">Total:${props.cartItems.reduce((acc, item)=>{
+  return (parseInt(acc) + parseInt(item.price))
+},0)}</div>
+<button onClick={()=>setShowform(true)}>select product</button>
+      </div>
+      }
+{showform &&
+    <Checkout setShowform={setShowform}/>
+      }
     </div>
   )
 }
